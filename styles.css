@@ -1,0 +1,15 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+}
+#container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.gridClass {
+    width: 52px;
+    padding: 5px;
+    margin: 4px;
+}
+.hide {display: none;}
