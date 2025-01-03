@@ -1,15 +1,17 @@
 body {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    margin: 0;
+    margin: 12px;
 }
-#container {
-    flex-wrap: wrap;
+.grid {
     display: flex;
     justify-content: center;
 }
-.gridClass {
-    width: 52px;
-    padding: 5px;
-    margin: 4px;
+.square {
+    background: white;
+    border: 1px solid black;
 }
-.hide {display: none;}
+.container {
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: column;
+}
